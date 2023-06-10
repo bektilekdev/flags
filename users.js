@@ -14,6 +14,6 @@ axios(`https://jsonplaceholder.typicode.com/users`)
         view()
         input.addEventListener('input',()=>{
             const inputValue = input.value.trim().toLowerCase()
-            const filter = inputValue
+            const filter = inputValue.value
         })
     })
